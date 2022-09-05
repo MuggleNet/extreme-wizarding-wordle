@@ -1,4 +1,4 @@
-export const WORDLE_TITLE = 'WIZARDING WORDLE'
+export const WORDLE_TITLE = 'EXTREME WIZARDING WORDLE'
 
 export const WIN_MESSAGES = ['Brilliant', 'Outstanding', 'Mischief Managed']
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
