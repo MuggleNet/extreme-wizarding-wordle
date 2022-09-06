@@ -3,9 +3,9 @@ import { solutionIndex } from './words'
 
 export const shareStatus = (guesses: string[], lost: boolean) => {
   navigator.clipboard.writeText(
-    `#WizardingWordle Extreme ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
+    `#WizardingWordleExtreme ${solutionIndex} ${lost ? 'X' : guesses.length}/6\n\n` +
       generateEmojiGrid(guesses) +
-      `\n\nPlay @MuggleNet's original Harry Potter Wordle: bit.ly/WizardingWordle`
+      `\n\nPlay @MuggleNet's extreme Harry Potter Wordle: bit.ly/WizardingWordleExtreme`
   )
 }
 
